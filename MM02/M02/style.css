@@ -1,0 +1,20 @@
+body{
+    background:linear-gradient(navy, grey);
+    background-repeat: no-repeat;
+}
+.header{
+    background: linear-gradient(to right, white, grey);
+}
+.star{
+    animation: twinkle 1s infinite alternate;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin:auto;
+}
+@keyframes twinkle {
+    to {
+        background: white;
+        transform: scale (0.8)
+    }
+}
