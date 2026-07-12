@@ -1,0 +1,44 @@
+div{
+    border: solid 1px;
+}
+
+body{
+    min-height: 2000px;
+    padding-top: 50px;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.static{
+    position: static;
+    left: 0px;
+}
+
+.relative{
+    position: relative;
+    left: 50px;
+}
+
+.parent{
+    position: relative;
+    height: 50px;
+}
+
+
+
+.absolute{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+
+.sticky{
+    position: sticky;
+    top: 20px;
+
+}
